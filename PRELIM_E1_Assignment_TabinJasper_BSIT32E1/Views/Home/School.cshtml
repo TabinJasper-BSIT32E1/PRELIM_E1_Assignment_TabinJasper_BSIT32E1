@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "School Schedule";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .containers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .table-container {
+            width: 80%; /* Adjust as needed */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="containers">
+       <div class="table-container">
+            <h1>School Schedule</h1>
+
+            <table>
+                <tr>
+                    <th>COLLEGE OF COMPUTER STUDIES</th>
+                    <th>BSIT 32E1</th>
+                </tr>
+            </table>
+            <br />
+            <table>
+                <tr>
+                    <th>SUBJECT TITLE</th>
+                    <th>TEACHER</th>
+                    <th>UNIT</th>
+                    <th>ONLINE SYNCHRONOUS (Day/Time)</th>
+                    <th>ASYNCHRONOUS (Day/Time)</th>
+                    <th>FACE-TOFACE (Day/Time)</th>
+                    <th>RM</th>
+                </tr>
+
+                <tr>
+                    <td>Systems Integration & Architecture 1</td>
+                    <td>Prof BANAG</td>
+                    <td>3</td>
+                    <td></td>
+                    <td>SAT 10:00-12:00NN</td>
+                    <td>MON/TUE 06:30-08:00PM</td>
+                    <td>202</td>
+                </tr>
+
+                <tr>
+                    <td> Panitikan</td>
+                    <td>Prof ZAIDE</td>
+                    <td>3</td>
+                    <td>THU 10:00-12:00NN</td>
+                    <td>MON 04:00-05:00PM</td>
+                    <td>N/A</td>
+                </tr>
+
+                <tr>
+                    <td> Capstone Project and Research 1</td>
+                    <td>Prof R ELLANA</td>
+                    <td>3</td>
+                    <td></td>
+                    <td>THU 07:00-09:00PM</td>
+                    <td>MON/TUE 05:00-06:30PM</td>
+                    <td>217</td>
+                </tr>
+
+                <tr>
+                    <td> Quantitative Methods (Modeling & Simulation)</td>
+                    <td>Orif DELADIA</td>
+                    <td>3</td>
+                    <td></td>
+                    <td>WED 07:00-09:00PM</td>
+                    <td>MON/TUE 08-00-09:30PM</td>
+                    <td>INT1</td>
+                </tr>
+
+                <tr>
+                    <td> IT Elective 3 (FULL STACK)</td>
+                    <td>Prof ALAMO</td>
+                    <td>3</td>
+                    <td></td>
+                    <td>THU 01:00-03:00PM</td>
+                    <td>SAT 07:00-10:00AM</td>
+                    <td>INT1</td>
+
+                </tr>
+
+                <tr>
+                    <td> Information Assurance and Security</td>
+                    <td>Prof MALIG-ON</td>
+                    <td>3</td>
+                    <td></td>
+                    <td>THU 12:00-02:00PM</td>
+                    <td>TUE  04:00-05-00PM</td>
+                    <td>318</td>
+
+                </tr>
+            </table>
+       </div>
+   </div>
+</body>
+</html>
